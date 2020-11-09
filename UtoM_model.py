@@ -128,7 +128,7 @@ def simple(X_Y):
 #     ax4.set_xlim([-1,100 ])
 #     ax4.tick_params(labelsize = '30')
 
-#     return list(cenH_status_list), list(EcoRV_status_list)
+    return list(cenH_status_list), list(EcoRV_status_list)
  
 # if __name__ == '__main__':
 #     import time
