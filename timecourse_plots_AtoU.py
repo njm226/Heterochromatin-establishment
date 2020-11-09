@@ -470,41 +470,41 @@ EcoRV_total_max = (sum(EcoRV_list_max))/reps
 
 
     
-# save state_list
-with open('cenH_small_g52.txt', 'wb') as F:
-    pickle.dump(cenH_total_small, F)
+# # save state_list
+# with open('cenH_small_g52.txt', 'wb') as F:
+#     pickle.dump(cenH_total_small, F)
     
-# save state_list
-with open('cenH_m_g52.txt', 'wb') as F:
-    pickle.dump(cenH_total_m, F)
+# # save state_list
+# with open('cenH_m_g52.txt', 'wb') as F:
+#     pickle.dump(cenH_total_m, F)
     
-# save state_list
-with open('cenH_large_g52.txt', 'wb') as F:
-  pickle.dump(cenH_total_large, F)
+# # save state_list
+# with open('cenH_large_g52.txt', 'wb') as F:
+#   pickle.dump(cenH_total_large, F)
     
-# save state_list
-with open('cenH_max_g52.txt', 'wb') as F:
-    pickle.dump(cenH_total_max, F)
+# # save state_list
+# with open('cenH_max_g52.txt', 'wb') as F:
+#     pickle.dump(cenH_total_max, F)
     
     
     
 
     
-# save state_list
-with open('EcoRV_small_g52.txt', 'wb') as F:
-    pickle.dump(EcoRV_total_small, F)
+# # save state_list
+# with open('EcoRV_small_g52.txt', 'wb') as F:
+#     pickle.dump(EcoRV_total_small, F)
     
-# save state_list
-with open('EcoRV_m_g52.txt', 'wb') as F:
-    pickle.dump(EcoRV_total_m, F)
+# # save state_list
+# with open('EcoRV_m_g52.txt', 'wb') as F:
+#     pickle.dump(EcoRV_total_m, F)
     
-# save state_list
-with open('EcoRV_large_g52.txt', 'wb') as F:
-    pickle.dump(EcoRV_total_large, F)
+# # save state_list
+# with open('EcoRV_large_g52.txt', 'wb') as F:
+#     pickle.dump(EcoRV_total_large, F)
     
-# save state_list
-with open('EcoRV_max_g52.txt', 'wb') as F:
-    pickle.dump(EcoRV_total_max, F)
+# # save state_list
+# with open('EcoRV_max_g52.txt', 'wb') as F:
+#     pickle.dump(EcoRV_total_max, F)
 
 
 

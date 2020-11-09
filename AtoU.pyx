@@ -423,11 +423,11 @@ def t_loop(int duration, int[:] mt_region, int[:] positions, double[:] rates, in
                  
             
                     
-            if T>= 10 and switched == 0:
-                switched = 1
-                for i in range(20):
-                    pos = random.choice(positions)
-                    mt_region[pos]=2
+            # if T>= 10 and switched == 0:
+            #     switched = 1
+            #     for i in range(20):
+            #         pos = random.choice(positions)
+            #         mt_region[pos]=2
     
     
     return  cenH_status_list, EcoRV_status_list, states, S_nucleosomes_cenH, S_nucleosomes, A_nucleosomes, U_nucleosomes
