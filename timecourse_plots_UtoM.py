@@ -13,15 +13,15 @@ import matplotlib.pyplot as plt
 from UtoM_model import simple as ss
 import multiprocessing
 #import time
-import pickle
+#import pickle
 pool = multiprocessing.Pool(multiprocessing.cpu_count())
 
 
 
-X_Y=[[153,110,120]]
-X_Y_sm=[[182,110,120]]
-X_Y_sl=[[191,110,120]]
-X_Y_max=[[203,110,120]]
+X_Y=[[153,87,110]]
+X_Y_sm=[[182,87,110]]
+X_Y_sl=[[191,87,110]]
+X_Y_max=[[203,87,110]]
 
 reps=10000
 
@@ -469,41 +469,41 @@ EcoRV_total_max = (sum(EcoRV_list_max))/reps
 
 
     
-# save state_list
-with open('cenH_small_1x.txt', 'wb') as F:
-    pickle.dump(cenH_total_small, F)
+# # save state_list
+# with open('cenH_small_1x.txt', 'wb') as F:
+#     pickle.dump(cenH_total_small, F)
     
-# save state_list
-with open('cenH_m_1x.txt', 'wb') as F:
-    pickle.dump(cenH_total_m, F)
+# # save state_list
+# with open('cenH_m_1x.txt', 'wb') as F:
+#     pickle.dump(cenH_total_m, F)
     
-# save state_list
-with open('cenH_large_1x.txt', 'wb') as F:
-  pickle.dump(cenH_total_large, F)
+# # save state_list
+# with open('cenH_large_1x.txt', 'wb') as F:
+#   pickle.dump(cenH_total_large, F)
     
-# save state_list
-with open('cenH_max_1x.txt', 'wb') as F:
-    pickle.dump(cenH_total_max, F)
+# # save state_list
+# with open('cenH_max_1x.txt', 'wb') as F:
+#     pickle.dump(cenH_total_max, F)
     
     
     
 
     
-# save state_list
-with open('EcoRV_small_1x.txt', 'wb') as F:
-    pickle.dump(EcoRV_total_small, F)
+# # save state_list
+# with open('EcoRV_small_1x.txt', 'wb') as F:
+#     pickle.dump(EcoRV_total_small, F)
     
-# save state_list
-with open('EcoRV_m_1x.txt', 'wb') as F:
-    pickle.dump(EcoRV_total_m, F)
+# # save state_list
+# with open('EcoRV_m_1x.txt', 'wb') as F:
+#     pickle.dump(EcoRV_total_m, F)
     
-# save state_list
-with open('EcoRV_large_1x.txt', 'wb') as F:
-    pickle.dump(EcoRV_total_large, F)
+# # save state_list
+# with open('EcoRV_large_1x.txt', 'wb') as F:
+#     pickle.dump(EcoRV_total_large, F)
     
-# save state_list
-with open('EcoRV_max_1x.txt', 'wb') as F:
-    pickle.dump(EcoRV_total_max, F)
+# # save state_list
+# with open('EcoRV_max_1x.txt', 'wb') as F:
+#     pickle.dump(EcoRV_total_max, F)
 
 
 
@@ -567,7 +567,7 @@ ax1.set_ylim([0.001,1])
 ax1.set_xlim([1,200])
 ax1.legend(fontsize='25')
 
-plt.savefig("timecourse_big_1x.pdf")
+plt.savefig("timecourse_UtoM.pdf")
     
 
 # #fig, (ax1, ax2, ax3) = plt.subplots(nrows=1, ncols=3, figsize=((36, 12)))
